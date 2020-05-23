@@ -15,6 +15,6 @@ test('gets the subtract endpoint', async done => {
     expect(response.status).toBe(200);
     expect(response.type).toBe('application/json');
     expect(response.body.result).not.toBeNull();
-    expect(response.body.result).toBe(" x x x x");
+    expect(response.body.result).toBe(3);
     done();
 });
